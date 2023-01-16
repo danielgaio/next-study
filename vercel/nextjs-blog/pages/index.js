@@ -33,6 +33,7 @@ export default function Home({allPostsData}) {
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Testando a funcionalidade de preview</h2>
         <ul className={utilStyles.list}>
           {
             allPostsData.map(({id, date, title}) => (
